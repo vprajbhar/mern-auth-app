@@ -8,4 +8,5 @@ router.get('/profile', auth, userCtrl.getProfile);
 router.put('/profile', auth, upload.single('avatar'), userCtrl.updateProfile);
 router.post('/change-password', auth, userCtrl.changePassword);
 
+
 module.exports = router;

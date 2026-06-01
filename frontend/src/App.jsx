@@ -52,6 +52,7 @@ function App() {
           {/* Default redirect */}
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
+        
       </Router>
     </AuthProvider>
   );
